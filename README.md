@@ -17,11 +17,7 @@
 # How to run?
 ### STEPS:
 
-Clone the repository
 
-```bash
-https://github.com/entbappy/Chicken-Disease-Classification--Project
-```
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
@@ -91,7 +87,7 @@ open up you local host and port
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 317112662559.dkr.ecr.us-east-2.amazonaws.com/chicken
+    - Save the URI: XXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -127,7 +123,7 @@ open up you local host and port
 
     AWS_REGION = us-east-2
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  
 
     ECR_REPOSITORY_NAME = chicken
 
@@ -138,16 +134,16 @@ open up you local host and port
 
 ## Save pass:
 
-s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
+XXXXXXXXXXXXXXXXXXXXXXXX
 
 
 ## Run from terminal:
 
-docker build -t chickenapp.azurecr.io/chicken:latest .
+docker build -t xxxxxxxx.xxxxxxx.xx/chicken:latest .
 
-docker login chickenapp.azurecr.io
+docker login xxxxxxxx.xxxxxxx.xx
 
-docker push chickenapp.azurecr.io/chicken:latest
+docker push xxxxxxxx.xxxxxxx.xx/chicken:latest
 
 
 ## Deployment Steps:
